@@ -1,0 +1,78 @@
+@font-face {
+font-family: 'Raleway', sans-serif;
+ src: url(../fonts/Raleway-Medium.ttf); 
+}
+main{
+        background: linear-gradient(to right, rgba(48, 191, 134, 0,2), rgba(7, 88, 112, 0.40));
+    background-image: url(../images/zigzag.png) ;
+        background-size: 14px auto;
+    padding-bottom: 50px;
+    padding: 0;
+
+
+}
+h2{
+    color: cadetblue;
+font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font: Raleway;
+}
+div{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 30px;
+
+
+    
+}
+.titre{
+    background: linear-gradient(to right, rgba(48, 191, 134, 0.5), rgba(7, 88, 112, 0.50));
+    border: dotted gray ;
+    box-shadow: 10px 10px 10px teal;
+    text-align: center;
+    margin: 0 180px 30px 180px;
+    width: 50%;
+    
+
+
+}
+
+.wrap{  padding: 0;
+  margin: 0;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+     -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+    
+}
+.flex{
+  padding: 5px;
+  width: 31%;
+  height: auto;
+  margin: 10px;
+  
+
+    
+}
+.divcolor{
+    width: 80px;
+    background: linear-gradient(to right, rgba(48, 191, 134, 1), rgba(7, 88, 112, 1));
+
+    
+}
+@media (max-width: 1000px){
+    .divcolor{
+        display: none;
+    }
+    .wrap{
+        display: block;
+    }
+    .flex{
+        width: 90%;
+    }
+}
